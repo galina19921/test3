@@ -1,0 +1,21 @@
+{
+  "name": "phpcomposer/phpcomposer",
+  "type": "project",
+  "description": "test.",
+  "license": "proprietary",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Controller\\": "app/controller",
+      "Core\\": "core/"
+    }
+  },
+  "require": {
+
+  }
+}
